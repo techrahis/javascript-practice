@@ -5,5 +5,7 @@
   "prettier.useEditorConfig": false,
   "prettier.useTabs": false,
   "liveServer.settings.port": 5501,
-  "editor.acceptSuggestionOnEnter": "on"
+  "editor.acceptSuggestionOnEnter": "on",
+  "workbench.colorTheme": "Andromeda Colorizer",
+  "workbench.iconTheme": "vscode-icons"
 }
