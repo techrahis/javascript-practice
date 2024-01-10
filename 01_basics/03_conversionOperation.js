@@ -24,6 +24,9 @@ console.log(Boolean(false)); // false
 console.log(typeof Number("25rajarshi")); // number
 console.log(Number("25rajarshi")); // NaN
 
+console.log(typeof Number("rajrashi24")); // number
+console.log(Number("rajrashi24")); // NaN
+
 // ********** 02. Operations **********
 
 let value = 3;
@@ -59,7 +62,7 @@ console.log(1 + "2"); // 12
 console.log("1" + 2 + 2); // 122
 console.log(1 + 2 + "3"); // 33
 
-console.log(3 + ((4 * 5) % 3));
+console.log(3 + ((4 * 5) % 3)); // 5
 
 console.log(+true); // 1
 console.log(+false); // 0

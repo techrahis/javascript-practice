@@ -88,4 +88,3 @@ let immutableNumber = 42;
 immutableNumber += 1; // This doesn't change the original number, but creates a new one
 
 */
-
