@@ -4,6 +4,8 @@
 // Literal
 
 const mySym = Symbol("myKey1");
+const roll = 123456789n;
+const num = "rollNum";
 
 let user = {
   name: "Rajarshi",
@@ -12,8 +14,11 @@ let user = {
   [mySym]: "myKey1",
   email: "hello@rajarshisamaddar.com",
   age: 20,
+  [num]: roll,
   isLoggedin: false,
 };
+
+console.log(user);
 
 // console.log(user.name);
 // console.log(user["name"]); // right way and bracket notation
