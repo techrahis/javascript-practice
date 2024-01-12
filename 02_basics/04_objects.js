@@ -70,3 +70,19 @@ const user = [
 */
 
 // console.log(user.hasOwnProperty("isLoggedIn")); // false
+
+// +++++++++++++++++ Object De-structuring +++++++++++++++++
+
+const course = {
+  courseName: "JavaScript",
+  courseMentor: "Raj Shamani",
+  price: 9999,
+};
+
+// console.log(course);
+
+// const { courseName } = course;
+// console.log(courseName); // JavaScript
+
+const { courseName: cname } = course; // stored the value from courseName to cname
+// console.log(cname); // JavaScript
