@@ -37,3 +37,14 @@ How to create IFFE?
 (function chai() {
   console.log("I am a named IIFE");
 })();
+
+// Example 5 (IIFE with return value)
+(function () {
+  return "I am a return value";
+})();
+
+// Example 6 (IIFE with return value)
+const result = (function () {
+  return "I am a return value";
+})(); // () is used to call the function
+console.log(result);
