@@ -48,3 +48,15 @@ const result = (function () {
   return "I am a return value";
 })(); // () is used to call the function
 console.log(result);
+
+// Example 7 (IIFE with return value)
+const result2 = (function () {
+  return "I am a return value";
+})(); // () is used to call the function
+console.log(result2);
+
+// Example 8 (IIFE with return value)
+const result3 = (function () {
+  return "I am a return value";
+})(); // () is used to call the function
+console.log(result3);
