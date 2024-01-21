@@ -1,4 +1,4 @@
-const students = ["raj", "rahul", "amit", "rakesh"];
+let students = ["raj", "rahul", "amit", "rakesh"];
 
 // while loop
 
@@ -21,3 +21,9 @@ do {
   console.log(x);
   x++;
 } while (x < 10);
+
+let b = 0;
+do {
+  console.log(students[b]);
+  b++;
+} while (b < students.length);
