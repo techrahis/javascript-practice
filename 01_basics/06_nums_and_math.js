@@ -12,6 +12,7 @@ const newAmount = new Number(400);
 // console.log(typeof newAmount.toFixed(2).valueOf()); // string
 
 const otherNumber = 129.123456789;
+// console.log(otherNumber.toFixed(1)); // 129.1 (rounds off to 1 decimal place)
 // console.log(otherNumber.toPrecision(4)); // 129.1
 // console.log(otherNumber.toPrecision(5)); // 129.12
 // console.log(otherNumber.toPrecision(3)); // 129

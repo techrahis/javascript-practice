@@ -18,7 +18,6 @@ console.log(id === anotherId); // false
 2. Non-primitive Data Types or Reference Types Object, Array, Function, Date, RegExp, etc.
 
 
-
 JavaScript a statically typed or a dynamically typed language?
 
 => JavaScript is a dynamically typed language. 
